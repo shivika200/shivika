@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column3 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 300px;
+ margin-top:150px;
+}
+
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:orange;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+li a:hover {
+  background-color:powderblue;
+}
+</style>
+</head>
+<body>
+<ul>
+    <li><a href="contact.html">Contact</a></li>
+  <li><a href="services.html">services</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="index.html">Home</a></li>
+</ul>
+  
+  
+
+
+	
+
+	 
+	 <h2 style="text-align:center;margin-top:100px;color:brown; font-size:35px;"> Services</h2>
+	 
+ <div class="row">
+  <div class="column3"  style="margin-top:50px;">
+    <img src="img/505.jpg" style="width:96%;height:370px;border-radius:5%;">
+	<h1>"java"</h1>
+	<p>Programming Language</p>
+	<button style="background-color:green;text-decoration:none;height:30px;width:180px;" ><a href="img\java.pdf" style="color:white;"><b>See Contents</b></a></button>
+	</div> 
+<div class="column3" style="margin-top:50px;" >
+    <img src="img/507.jpg" style="width:96%;height:370px;border-radius:5%;">
+	<h1><center>Python </h1>
+	<p>Programming Language</p>
+	<button style="background-color:green;text-decoration:none;height:30px;width:180px;" ><a href="img\python.pdf" style="color:white;"><b>See Contents</b></a></button>
+	
+	
+	</div>  
+<div class="column3" style="margin-top:50px;" >
+    <img src="img/c++.jpg" style="width:96%;height:370px;border-radius:5%;">
+	<h1><center>c++</h1>
+	<p>Programming Language</p>
+	<button style="background-color:green;text-decoration:none;height:30px;width:180px;" ><a href="img\c++.pdf" style="color:white;"><b>See Contents</b></a></button>
+	</div>
+	</div> 
+	
+	
+ 
+	
+
+<footer>
+<p style="background-color:orange;font-size:20px;padding:19px;margin-top:250px; text-align:center;"><b>@ShriDurgaTechnicalProduction</b></p>
+	
+</footer>	
+	
+	
+
+
+
+
+
+</body>
+</html>
+
